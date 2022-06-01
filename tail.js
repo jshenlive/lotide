@@ -12,11 +12,11 @@ const tail = function(arr) {
   return newArr.slice(1);
 };
 
-// TEST CASE
-let test = [5,6,7,8];
-let testResult = tail(test);
-console.log(test);
-console.log(testResult);
+// // TEST CASE
+// let test = [5,6,7,8];
+// let testResult = tail(test);
+// console.log(test);
+// console.log(testResult);
 
-assertEqual(test.length, 4);
+// assertEqual(test.length, 4);
 

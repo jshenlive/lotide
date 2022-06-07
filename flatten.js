@@ -1,11 +1,11 @@
-const flatten = function(arr) {
+const flatten = function (arr) {
   let newArr = [];
-  for (let item of arr){
-    
+  for (let item of arr) {
+
     //recurse
-    if (Array.isArray(item)){
+    if (Array.isArray(item)) {
       let temp = flatten(item);
-      for (let item of temp){
+      for (let item of temp) {
         newArr.push(item);
       }
     } else {
@@ -14,4 +14,6 @@ const flatten = function(arr) {
   }
   return newArr
 };
+module.exports = flatten;
+
 // console.log(flatten([1, 2, [3, [4,4.5,[4.6,4.7,4.8]]], 5, [6]]));

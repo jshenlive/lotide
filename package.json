@@ -1,0 +1,26 @@
+{
+  "name": "@jshenlive/lotide",
+  "version": "1.0.0",
+  "description": "lotide library: containing multiple functions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshenlive/lotide.git"
+  },
+  "author": "Jesse Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jshenlive/lotide/issues"
+  },
+  "homepage": "https://github.com/jshenlive/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
